@@ -1,0 +1,10 @@
+一.初始化GIT仓库/仓储（对项目代码文件进行备份）
+	1.项目文件夹中右键代开git bush
+	2.输入命令： git init 回车后项目文件夹中会出现隐藏文件夹.git
+
+二.配置当前使用者的用户名和邮箱
+	1.输入命令： git config --global user.name "elio yan"
+	2.输入命令： git config --global user.email "elio_yan@resourcrepro.com.cn"
+
+三.把代码存到.get仓库中总共分两步
+	1.把代码放到门口： git add ./
