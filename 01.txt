@@ -7,4 +7,5 @@
 	2.输入命令： git config --global user.email "elio_yan@resourcrepro.com.cn"
 
 三.把代码存到.get仓库中总共分两步
-	1.把代码放到门口： git add ./
+	1.把代码放到门口： git add ./01.txt;     ./的意思是当前文件夹  后面跟要存的文件名
+	2.把代码放到仓库中： git commit -m "this is a test file created by elio 这里写啥都行，只是对你这次存储的一个描述";
