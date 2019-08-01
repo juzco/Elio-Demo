@@ -40,4 +40,14 @@ Git学习
 	4.git reflog  查看所有改动日志
 
 十.创建/切换分支
+<<<<<<< HEAD
 	1.输入
+=======
+	1.创建：输入 git branch 名字
+	2.查看：输入 git branch
+	3.切换：输入 git checkout 名字
+
+十一.合并分支到主线
+	1.首先切换回主线 git checkout master
+	2.然后输入 git merge elio分支
+>>>>>>> elio
