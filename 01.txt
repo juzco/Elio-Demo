@@ -67,3 +67,14 @@ Git学习
 
 十六.clone其他人代码方式二：
 	1.前两步骤同上  再输入 clone 链接地址 回车  没有master
+
+十七.怎样让别人上传到自己的仓储库  而不需要使用GitHub 上的账户名和密码
+	通过SSH方式上传代码：
+	公钥 私钥二者之间是有关联的
+	生成公钥私钥：
+		1.任意文件夹打开git bush
+		2.输入 ssh-kengen -t rsa -C 1600463133@qq.com
+		3.一路默认回车下去，完成
+		4.看看成功与否 C:\Users\elio yan\.ssh\
+		5.打开后缀pd文件  复制下来去GitHub\Settings\SSH\New\粘贴进去起个名\ADD
+	clone的时候直接使用SSH里的链接地址  接下来照常啦  git push 地址 master
