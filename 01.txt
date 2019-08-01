@@ -12,3 +12,7 @@ Git学习
 三.把代码存到.get仓库中总共分两步
 	1.把代码放到门口(暂存区)： git add ./01.txt;     ./的意思是当前文件夹,  后面跟要存的文件名
 	2.把代码放到仓库中(版本库)： git commit -m "this is a test file created by elio 这里写啥都行，只是对你这次存储的一个描述";
+
+四.查看代码状态
+	1.输入 git status 回车
+	2.状态1：绿色的
