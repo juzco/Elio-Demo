@@ -57,4 +57,10 @@ Git学习
 
 十四.通过git将代码上传到GitHub上
 	1.再GitHub上创建repositary后会出现链接地址 复制下来
-	2.git bush中输入命令 ： git push 上方的链接地址
+	2.git bush中输入命令 ： git push 上方的链接地址 master
+	3.上述将当前分支的内容上传到了远程的master分支上
+
+十五.clone其他人的代码
+	1.自己的文件夹中右键  git bush
+	2.输入git init 初始化  就像第一步做的一样  有哪位你俩是平级嘛~
+	3.输入git pull 链接地址 master
