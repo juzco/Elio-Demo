@@ -15,4 +15,6 @@ Git学习
 
 四.查看代码状态
 	1.输入 git status 回车
-	2.状态1：绿色的
+	2.状态1：绿色modified代表文件已经修改并且add了
+	  状态2：红色modified代表文件已经修改但尚未add
+	  状态3：On branch master nothing to commit, working directory clean表示最近的更新已经进行了add 和 commit
