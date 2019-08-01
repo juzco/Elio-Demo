@@ -78,3 +78,7 @@ Git学习
 		4.看看成功与否 C:\Users\elio yan\.ssh\
 		5.打开后缀pd文件  复制下来去GitHub\Settings\SSH\New\粘贴进去起个名\ADD
 	clone的时候直接使用SSH里的链接地址  接下来照常啦  git push 地址 master
+
+十八.简化push&pull中的地址操作
+	1.输入 git remote add 名字 链接地址
+	2.以后用到地址的地方都是用这个名字即可
