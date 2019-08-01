@@ -43,7 +43,8 @@ Git学习
 <<<<<<< HEAD
 =======
 	1.创建：输入 git branch 名字
-	2.查看：输入 git branch
+	2.查看：输入 git branch  
+		1）前面带星号的表示当前所处的分支
 	3.切换：输入 git checkout 名字
 
 十一.合并分支到主线
