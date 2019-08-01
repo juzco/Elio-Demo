@@ -18,3 +18,7 @@ Git学习
 	2.状态1：绿色modified代表文件已经修改并且add了
 	  状态2：红色modified代表文件已经修改但尚未add
 	  状态3：On branch master nothing to commit, working directory clean表示最近的更新已经进行了add 和 commit
+
+五.一次性保存多个文件
+	1.输入 git add ./
+	
