@@ -51,3 +51,6 @@ Git学习
 	1.首先切换回主线 git checkout master
 	2.然后输入 git merge elio分支
 >>>>>>> elio
+
+十二.删除分支
+	1.输入 git branch -d 分支名字
