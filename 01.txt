@@ -54,3 +54,7 @@ Git学习
 
 十三.解决冲突
 	1.手动解决冲突 主线手动解决
+
+十四.通过git将代码上传到GitHub上
+	1.再GitHub上创建repositary后会出现链接地址 复制下来
+	2.git bush中输入命令 ： git push 上方的链接地址
